@@ -1,0 +1,9 @@
+banner__img: true
+banner__image__src: pic01.jpg
+# banner__base_class: 'banner'
+banner__image__alt: 'banner image'
+banner__heading__base_class: 'banner-content-heading'
+banner__heading: 'Howdy. This is Dopetrope.'
+banner__body__base_class:
+  'paragraph--tagline paragraph--color-red'
+banner__tagline: 'A responsive template by HTML5 UP'

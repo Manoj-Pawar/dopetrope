@@ -1,0 +1,8 @@
+{% for item in items %}
+    <div class="link-wraper">
+        {% include '@atoms/links/link/link.twig' with {
+            link_url: item.footer_link_url,
+            link_content: item.footer_link_content,
+        } %}
+    </div>
+{% endfor %}    

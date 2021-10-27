@@ -1,0 +1,38 @@
+<div class="address_with_social_media">
+    {% include "@atoms/text/headings/_heading.twig" with {
+      heading_level: 2,
+      heading: address_title__heading,
+    } %}
+    <div class="social_media">
+      {% for item in items %}
+        {% include '@atoms/images/Font_icon/awesome_font_icon.twig' with {
+          svg_base_class: item.svg_base_class,
+          fonticon_base_class: item.fonticon_base_class,
+          icon_url: item.icon_url,
+        } %}
+      {% endfor %}
+    </div>
+    <div class="address">
+      {% include "@atoms/text/headings/_heading.twig" with {
+        heading_level: 3,
+        heading: address_label,
+      } %}
+      {% include "@atoms/text/text/01-paragraph.twig" with {
+        paragraph_content: address_content
+      } %}
+      {% include "@atoms/text/headings/_heading.twig" with {
+        heading_level: 3,
+        heading: email_label,
+      } %}
+      {% include "@atoms/text/text/01-paragraph.twig" with {
+        paragraph_content: email_content
+      } %}
+      {% include "@atoms/text/headings/_heading.twig" with {
+        heading_level: 3,
+        heading: contact_label,
+      } %}
+      {% include "@atoms/text/text/01-paragraph.twig" with {
+        paragraph_content: contact_content
+      } %}
+    </div>
+</div> 

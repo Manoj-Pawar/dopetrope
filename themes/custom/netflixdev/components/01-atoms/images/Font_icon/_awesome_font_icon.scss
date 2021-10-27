@@ -1,0 +1,85 @@
+
+@mixin svg {
+    position: relative;
+    font-size: 65px;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -52px;
+        left: 0;
+        right: 0;
+        border-left: 72px solid transparent;
+        border-right: 72px solid transparent;
+    }
+}
+@mixin social_icon {
+    font-size: 30px;
+    border-radius: 8px;
+    color: #fff;
+    padding: 12px 15px;
+    margin: 0px 5px;
+}
+.gear {
+    @include svg;
+    background: #f00;
+    padding: 40px 45px 0px;
+    &::after {
+        border-top: 52px solid #f00;
+    }
+}
+.flash {
+    @include svg;
+    background: #000;
+    padding: 40px 56px 0px;
+    &::after {
+        border-top: 52px solid #000;
+    }
+}
+.star {
+    @include svg;
+    background: grey;
+    padding: 40px 42px 0px;
+    &::after {
+        border-top: 52px solid grey;
+    }
+}
+
+.facebook {
+    @include social_icon;
+    background: blue;
+    padding: 12px 20px;
+    &:hover {
+        background: darkblue
+    }
+}
+.instagram {
+    @include social_icon;
+    background: pink;
+    &:hover {
+        background: lightpink
+    }
+}
+.twitter {
+    @include social_icon;
+    background: darkblue;
+    &:hover {
+        background: lightblue
+    }
+}
+.github {
+    @include social_icon;
+    background: grey;
+    &:hover {
+        background: black
+    }
+}
+.linkedin {
+    @include social_icon;
+    background: darkblue;
+    &:hover {
+        background: blue;
+    }
+}

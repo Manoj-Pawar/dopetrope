@@ -1,0 +1,33 @@
+<div class="feature_box_with_button">
+  {# feature #}
+  <div class="feature_box">
+  {% for item in feature_items %}
+    <div {{ bem('feature', feature_box__modifiers, feature_box__blockname, feature_box__extra_classes) }}>
+      {% include "@atoms/images/Font_icon/awesome_font_icon.twig" with {
+        fonticon_base_class: item.feature_fonticon_base_class,
+        svg_base_class: item.feature_svg_base_class,
+      } %}
+      {{ title_prefix }}
+      {% include "@atoms/text/headings/_heading.twig" with {
+        heading_base_class: item.feature_box__heading__base_class|default('heading'),
+        heading_level: 2,
+        heading: item.feature_box__heading,
+      } %}
+      {{ title_suffix }}
+      {% include "@atoms/text/text/01-paragraph.twig" with {
+        paragraph_content: item.feature_box__body,
+      } %}
+    </div>
+  {% endfor %}
+  </div>
+  {# buttons #}
+  <div class="feature_box_button">
+    {% for item in button_items %}
+    {% include "@atoms/buttons/button.twig" with {
+      button_modifiers: item.feature_button_modifiers,
+      button_content: item.feature_button_content, 
+      button_url: item.feature_button_url,
+     } %}
+    {% endfor %}
+  </div>
+</div>

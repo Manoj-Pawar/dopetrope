@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: clr(background);
+  color: clr(text);
+
+  @include body-copy;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.main {
+  @include wrapper;
+
+  display: block; /* Fix for IE weirdness */
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  word-wrap: normal;
+}
+/* site building scss */
+.cards_wrap {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #f7f7f7;
+}
+
+.footerTwo {
+  display: flex;
+  justify-content: space-around;
+  background: #000;
+  color: #fff;
+  padding: 0px 50px 30px 30px;
+
+  .menu {
+    list-style: none;
+    .menu__item {
+      margin: 15px 0px;
+      a{
+        color: lightgray;
+      }
+    }
+  }
+  .address_with_social_icons {
+    .social_icons {
+      display: flex;
+      .icon {
+        margin: 0 3px;
+      }
+    }
+    ul{
+      list-style: none;
+      li{
+        h3{
+          color: #fff;
+        }
+        p {
+          margin-top: -37px;
+          margin-left: 100px;
+          color: lightgrey;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .footerTwo {
+    flex-direction: column;
+    padding: 10px
+  }
+}
+
+.footerthree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  .content {
+    background: #004;
+    padding: 10px 40px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
+}

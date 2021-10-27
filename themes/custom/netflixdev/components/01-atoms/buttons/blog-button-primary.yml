@@ -1,0 +1,5 @@
+button_content: 'Continue Reading'
+button_url: '#'
+fonticon_base_class: 'fas fa-file-alt'
+button_modifiers:
+  - 'primary'

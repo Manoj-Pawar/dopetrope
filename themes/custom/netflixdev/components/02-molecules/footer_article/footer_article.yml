@@ -1,0 +1,7 @@
+footer_article_image_src: './pic04.jpg'
+footer_article_image_alt: 'A 16 by 9 image'
+footer_article_paragraph_content: This is Dopetrope a free, fully responsive HTML5 site template by AJ for HTML5 UP It's released for free under the Creative Commons Attribution license so feel free to use it for any personal or commercial project – just don't forget to credit us!
+footer_article_button_content: 'Find out more'
+footer_article_button_url: '#'
+footer_article_button_modifiers:
+  - 'primary'

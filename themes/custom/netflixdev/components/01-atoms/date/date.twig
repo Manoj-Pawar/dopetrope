@@ -1,0 +1,8 @@
+{% set date_base_class = date_base_class| default('date') %}
+
+
+{% set additional_attributes = {
+    class: bem(date_base_class, date_modifiers, date_blockname),
+} %}
+
+<span {{ add_attributes( additional_attributes ) }} >{{ month }}<strong>{{ day }}</strong></span>

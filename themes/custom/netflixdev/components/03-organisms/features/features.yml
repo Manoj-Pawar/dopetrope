@@ -1,0 +1,25 @@
+feature_items:
+  - feature_fonticon_base_class: 'gear'
+    feature_svg_base_class: 'fa fa-gear'
+    feature_box__heading: 'Ipsum consequat'
+    feature_box__heading__base_class: 'services-content-heading'
+    feature_box__body: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.
+  - feature_fonticon_base_class: 'flash'
+    feature_svg_base_class: 'fa fa-bolt'
+    feature_box__heading: 'Ipsum consequat'
+    feature_box__heading__base_class: 'services-content-heading'
+    feature_box__body: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.
+  - feature_fonticon_base_class: 'star'
+    feature_svg_base_class: 'fa fa-star'
+    feature_box__heading: 'Ipsum consequat'
+    feature_box__heading__base_class: 'services-content-heading'
+    feature_box__body: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.
+button_items:
+  - feature_button_content: 'Get Started'
+    feature_button_url: '#'
+    feature_button_modifiers:
+      - 'primary'    
+  - feature_button_content: 'Learn More'
+    feature_button_url: '#'
+    feature_button_modifiers:
+      - 'secondry'    

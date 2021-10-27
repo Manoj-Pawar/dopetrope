@@ -1,0 +1,29 @@
+{% set banner__base_class = 'banner' %}
+
+<div {{ bem(banner__base_class, banner__modifiers, banner__blockname, banner__extra_classes) }}>
+  {# Image #}
+  {% block banner__img %}
+    {% include "@atoms/images/image/responsive-image.twig" with {
+      image_blockname: banner__base_class,
+      image_src: banner__image__src,
+      image_alt: banner__image__alt,
+    } %}
+  {% endblock %}
+  {# Content #}
+  <div {{ bem('content') }}>
+    {# Heading #}
+      {{ title_prefix }}
+      {% include "@atoms/text/headings/_heading.twig" with {
+        heading_base_class: banner__heading__base_class|default('heading'),
+        heading_level: 1,
+        heading: banner__heading,
+      } %}
+      {{ title_suffix }}
+    {# tagline #}
+      {% include "@atoms/text/text/01-paragraph.twig" with {
+        paragraph_base_class: banner__body__base_class|default('tagline'),
+        paragraph_content: banner__tagline,
+        paragraph_modifiers: banner__body__modifiers,
+      } %}
+  </div>
+</div>

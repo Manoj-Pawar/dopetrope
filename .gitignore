@@ -1,0 +1,7 @@
+vendor
+core
+/sites/d8.dd/files/css
+/sites/d8.dd/files/js
+/sites/default/files/css
+/sites/default/files/js
+/themes/custom/netflixdev/node_modules

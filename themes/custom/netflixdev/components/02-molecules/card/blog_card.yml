@@ -1,0 +1,18 @@
+blog: true
+blog_card__image__src: 'pic08.jpg'
+blog_card__image__alt: "Magna tempus consequat"
+blog_card__heading: 'Magna tempus consequat'
+blog_card__subheading: 'Posted 45 minutes ago'
+blog_card__heading__link: '#'
+blog_card__heading__base_class: 'post-content-heading'
+blog_card__body: 'Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.'
+blog_card__button1__content: 'Continue Reading'
+blog_card__button1_url: '#'
+blog_card_button1_fonticon_base_class: 'fas fa-file-alt'
+blog_card__button1__modifiers:
+  - 'primary'
+blog_card__button2__content: '33 Comment'
+blog_card__button2_url: '#'
+blog_card_button2_fonticon_base_class: 'far fa-comment'
+blog_card__button2__modifiers:
+  - 'secondry'   

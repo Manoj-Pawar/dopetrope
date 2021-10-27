@@ -1,0 +1,7 @@
+feature: true
+feature_box_image: true
+feature_fonticon_base_class: 'gear'
+feature_svg_base_class: 'fa fa-gear'
+feature_box__heading: 'Ipsum consequat'
+feature_box__heading__base_class: 'services-content-heading'
+feature_box__body: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.

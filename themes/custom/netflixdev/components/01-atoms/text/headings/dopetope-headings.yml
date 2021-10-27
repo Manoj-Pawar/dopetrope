@@ -1,0 +1,13 @@
+- heading_level: 1
+  heading: Howdy. This is Dopetrope.
+  heading_base_class:
+    'banner-content-heading'
+- heading_level: 2
+  heading: This is an H2 Example
+  heading_base_class:
+    'services-content-heading'
+- heading_level: 3
+  heading: This is an H3 Example
+  heading_url: '#'
+  heading_base_class:
+    'post-content-heading'

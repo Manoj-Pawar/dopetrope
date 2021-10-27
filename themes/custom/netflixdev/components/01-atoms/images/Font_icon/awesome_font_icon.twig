@@ -1,0 +1,13 @@
+{% set fonticon_base_class = fonticon_base_class|default('icon') %}
+
+{% if icon_url %}
+  <a href={{ icon_url }}>
+    <span {{ bem(fonticon_base_class, fonticon_modifiers, fonticon_blockname, fonticon_extra_class) }}>  
+      <i {{ bem(svg_base_class, svg_modifiers, svg_blockname, svg_extra_class) }}></i>  
+    </span> 
+  </a>
+{% else %}
+  <span {{ bem(fonticon_base_class, fonticon_modifiers, fonticon_blockname, fonticon_extra_class) }}>  
+    <i {{ bem(svg_base_class, svg_modifiers, svg_blockname, svg_extra_class) }}></i>  
+  </span> 
+{% endif %}  

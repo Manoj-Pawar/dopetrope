@@ -1,0 +1,11 @@
+portfolio: true
+portfolio_card__image__src: 'pic02.jpg'
+portfolio_card__image__alt: "Ipsum feugiat et dolor"
+portfolio_card__heading: 'Ipsum feugiat et dolor'
+portfolio_card__heading__link: '#'
+portfolio_card__heading__base_class: 'post-content-heading'
+portfolio_card__body: 'Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.'
+portfolio_card__button__content: 'Find out more'
+portfolio_card__button__url: '#'
+portfolio_card__button__modifiers:
+  - 'secondry'

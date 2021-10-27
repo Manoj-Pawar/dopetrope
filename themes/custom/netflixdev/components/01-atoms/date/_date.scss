@@ -1,0 +1,27 @@
+.date {
+    position: relative;
+    background: #f00;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 0px 12px 0 16px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    strong {
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: -12px;
+        margin-bottom: -5px;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        left: 56px;
+        bottom: 0px;
+        border-top: 24px solid transparent;
+        border-left: 20px solid #F00;
+        border-bottom: 23px solid transparent;
+    }
+}

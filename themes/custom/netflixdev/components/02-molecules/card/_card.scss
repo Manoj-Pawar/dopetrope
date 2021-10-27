@@ -1,0 +1,47 @@
+.portfolio_card {
+  max-width: 333px;
+  margin: 12px;
+  border-bottom: 1px solid lightgray;
+  .portfolio_card__content {
+    background: #fff;
+    padding: 6px 12px 30px 12px;
+    
+    h3{
+      margin: 0;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+.blog_card {
+  max-width: 550px;
+  margin: 12px;
+  border-bottom: 1px solid lightgray;
+  .blog_card__content {
+    background: #fff;
+    padding: 20px 30px 50px 30px;
+    
+    h3{
+      margin: 0;
+      padding-bottom: 5px;
+    }
+    .subheading {
+      margin: 5px 0 25px 0;
+
+      .subheading__link {
+        font-style: italic;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: var(--c-text);
+      }
+    }
+    .two_button_wraper {
+      display: flex;
+      padding-top: 12px;
+
+      .button {
+        margin-right: 18px;
+      }
+    }
+  }
+}

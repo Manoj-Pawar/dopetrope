@@ -1,0 +1,27 @@
+{% set feature_box__base_class = 'feature' %}
+
+  <div class="feature_box">
+    {# {% for i in 0..2 %} #}
+      <div {{ bem(feature_box__base_class, feature_box__modifiers, feature_box__blockname, feature_box__extra_classes) }}>
+
+        {# image #}
+          {% include "@atoms/images/Font_icon/awesome_font_icon.twig" with {
+            fonticon_base_class: feature_fonticon_base_class,
+            svg_base_class: feature_svg_base_class,
+          } %}
+        {# heading #}  
+          {{ title_prefix }}
+          {% include "@atoms/text/headings/_heading.twig" with {
+            heading_base_class: feature_box__heading__base_class|default('heading'),
+            heading_level: 2,
+            heading: feature_box__heading,
+          } %}
+          {{ title_suffix }}
+        {# Body #}
+          {% include "@atoms/text/text/01-paragraph.twig" with {
+            paragraph_content: feature_box__body,
+          } %}
+
+      </div>
+    {# {% endfor %} #}
+  </div>

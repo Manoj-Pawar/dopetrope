@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming.
+ */
+
+function netflixdev_preprocess_field(&$vars) {
+  if (
+    $vars['field_type'] == 'entity_reference_revisions'
+    &&
+    $vars['element']['#items']->getItemDefinition()->getSetting('target_type') == 'paragraph'
+  ) {
+    foreach ($vars['items'] as $idx => $item) {
+      $vars['items'][$idx]['content']['#paragraph']->index = $idx;
+    }
+  }
+}

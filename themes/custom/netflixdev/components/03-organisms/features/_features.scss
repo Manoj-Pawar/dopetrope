@@ -1,0 +1,138 @@
+.feature_box_with_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    .feature_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 55px 100px;
+        .feature {
+            padding: 60px 30px;
+            &:nth-child(even) {
+                box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 7px 0 10px -4px lightgray, -7px 0 10px -4px lightgray;
+            }
+        }
+    }
+    .feature_box_button {
+        display: flex;
+        flex-direction: row;
+        .button {
+            padding: 15px 60px;
+            font-size: 20px;
+            &:nth-child(odd) {
+                margin-right: 22px;
+            }
+        }
+    }
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+    .feature_box_with_button{
+        .feature_box {
+            margin: 0px;
+            .feature {
+                padding: 45px 22px;
+                h2 {
+                    margin: 40px 0 10px 0;
+                    font-size: 25px;
+                }
+                .gear {
+                    padding: 25px 30px 0;
+                    &::after{
+                        bottom: -40px;
+                        border-top: 40px solid #f00;
+                        border-left: 60px solid transparent;
+                        border-right: 60px solid transparent;
+                    }
+                }
+                .flash {
+                    padding: 25px 40px 0;
+                    &::after{
+                        bottom: -40px;
+                        border-top: 40px solid #000;
+                        border-left: 62px solid transparent;
+                        border-right: 62px solid transparent;
+                    }
+                }
+                .star {
+                    padding: 25px 30px 0;
+                    &::after{
+                        bottom: -40px;
+                        border-top: 40px solid gray;
+                        border-left: 64px solid transparent;
+                        border-right: 64px solid transparent;
+                    }
+                }
+
+            }
+        }
+        .feature_box_button {
+            .button {
+                padding: 15px 60px;
+                font-size: 15px;
+            }
+        }
+    }
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    .feature_box_with_button{
+        .feature_box {
+            flex-direction: column;
+            .feature {
+                padding: 32px 0px 0px;
+                &:nth-child(even) {
+                    box-shadow: none;
+                }
+                h2 {
+                    margin: 40px 0 10px 0;
+                    font-size: 30px;
+                }
+                .gear {
+                    padding: 25px 30px 0;
+                    &::after{
+                        bottom: -40px;
+                        border-top: 40px solid #f00;
+                        border-left: 60px solid transparent;
+                        border-right: 60px solid transparent;
+                    }
+                }
+                .flash {
+                    padding: 25px 40px 0;
+                    &::after{
+                        bottom: -40px;
+                        border-top: 40px solid #000;
+                        border-left: 62px solid transparent;
+                        border-right: 62px solid transparent;
+                    }
+                }
+                .star {
+                    padding: 25px 30px 0;
+                    &::after{
+                        bottom: -40px;
+                        border-top: 40px solid gray;
+                        border-left: 64px solid transparent;
+                        border-right: 64px solid transparent;
+                    }
+                }
+
+            }
+        }
+        .feature_box_button {
+            flex-direction: column;
+            margin: 25px 0px;
+            .button {
+                padding: 12px 30px;
+                font-size: 20px;
+                &:nth-child(odd) {
+                    margin-right: 0px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+  }

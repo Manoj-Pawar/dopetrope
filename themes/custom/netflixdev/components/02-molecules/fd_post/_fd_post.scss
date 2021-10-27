@@ -1,0 +1,24 @@
+.fd_post_box {
+    background: #000;
+    color: #fff;
+    padding: 10px 10px;
+    .post_content {
+        position: relative;
+        top: 0px;
+        left: 98px;
+        margin-top: -52px;
+        h3 {
+            margin: 0;
+            padding: 0;
+            a {
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+        p {
+            margin: 0;
+            font-size: 13px;
+            color: lightgray;
+        }
+    }
+}

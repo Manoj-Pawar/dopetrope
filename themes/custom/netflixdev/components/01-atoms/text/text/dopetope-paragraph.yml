@@ -1,0 +1,12 @@
+- paragraph_content: Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.
+
+- paragraph_content: Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.
+  paragraph_modifiers:
+    - 'italic'
+    - 'color-red'
+
+- paragraph_content: A responsive template by HTML5 UP
+  paragraph_modifiers:
+    - 'tagline'
+    - 'color-red'
+

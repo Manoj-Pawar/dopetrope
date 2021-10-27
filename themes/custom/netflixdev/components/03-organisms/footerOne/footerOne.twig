@@ -1,0 +1,39 @@
+<section class="footerOne">
+    <div class="footerOneLeft">
+        {% include "@atoms/text/headings/_heading.twig" with {
+            heading_level: 2,
+            heading: heading1,
+            heading_base_class: footerOne_heading_base_class,
+        } %}
+        <div class="content">
+            {% for post_item in post_items1 %}
+                {% include "@molecules/fd_post/fd_post.twig" with {
+                    post_date_base_class: post_item.footerOne_post_date_base_class,
+                    post_day: post_item.footerOne_post_day,
+                    post_month: post_item.footerOne_post_month,
+                    post_heading: post_item.footerOne_post_heading,
+                    post_heading_url: post_item.footerOne_post_heading_url,
+                    post_heading_base_class: post_item.footerOne_post_heading_base_class,
+                    post_paragraph_content: post_item.footerOne_post_paragraph_content,
+                } %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="footerOneRight">
+        {% include "@atoms/text/headings/_heading.twig" with {
+                heading_level: 2,
+                heading: heading2,
+                heading_base_class: footerOne_heading_base_class,
+        } %}
+        <div class="content">
+            {% include "@molecules/footer_article/footer_article.twig" with {
+                footer_article_image_src: footerOne_footer_article_image_src,
+                footer_article_image_alt: footerOne_footer_article_image_alt,
+                footer_article_paragraph_content: footerOne_footer_article_paragraph_content,
+                footer_article_button_content: footerOne_footer_article_button_content,
+                footer_article_button_url: footerOne_footer_article_button_url,
+                footer_article_button_modifiers: footerOne_footer_article_button_modifiers,
+            } %}
+        </div>
+    </div>
+</section>

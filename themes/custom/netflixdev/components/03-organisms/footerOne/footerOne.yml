@@ -1,0 +1,42 @@
+heading1: Blandit nisl adipiscing
+heading2: What's this all about?
+footerOne_heading_base_class: services-content-heading
+post_items:
+  - footerOne_post_day: 27
+    footerOne_post_month: Jul
+    footerOne_post_heading: 'Lorem dolor sit amet veroeros'
+    footerOne_post_heading_url: '#'
+    footerOne_post_heading_base_class: post-content-heading
+    footerOne_post_paragraph_content: 'Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.'
+  - footerOne_post_day: 26
+    footerOne_post_month: Jul
+    footerOne_post_heading: 'Ipsum sed blandit nisl consequat'
+    footerOne_post_heading_url: '#'
+    footerOne_post_heading_base_class: post-content-heading
+    footerOne_post_paragraph_content: 'Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.'
+  - footerOne_post_day: 25
+    footerOne_post_month: Jul
+    footerOne_post_heading: 'Magna tempus lorem feugiat'
+    footerOne_post_heading_url: '#'
+    footerOne_post_heading_base_class: post-content-heading
+    footerOne_post_paragraph_content: 'Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.'
+  - footerOne_post_day: 24
+    footerOne_post_month: Jul
+    footerOne_post_heading: 'Dolore tempus ipsum feugiat nulla'
+    footerOne_post_heading_url: '#'
+    footerOne_post_heading_base_class: post-content-heading
+    footerOne_post_paragraph_content: 'Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.'
+  - footerOne_post_day: 23
+    footerOne_post_month: Jul
+    footerOne_post_heading: 'Blandit tempus aliquam?'
+    footerOne_post_heading_url: '#'
+    footerOne_post_heading_base_class: post-content-heading
+    footerOne_post_paragraph_content: 'Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.'
+footerOne_footer_article_image_src: './pic02.jpg'
+footerOne_footer_article_image_alt: 'A 16 by 9 image'
+footerOne_footer_article_paragraph_content: This is Dopetrope a free, fully responsive HTML5 site template by AJ for HTML5 UP It's released for free under the Creative Commons Attribution license so feel free to use it for any personal or commercial project – just don't forget to credit us!
+footerOne_footer_article_button_content: 'Find out more'
+footerOne_footer_article_button_url: '#'
+footerOne_footer_article_button_modifiers:
+  - 'primary'
+

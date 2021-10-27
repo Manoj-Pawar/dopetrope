@@ -1,0 +1,24 @@
+<div class="fd_post_box">
+    {% if post_day %}
+        {% include "@atoms/date/date.twig" with {
+            date_base_class: post_date_base_class, 
+            day: post_day,
+            month: post_month,
+        } %} 
+    {% endif %} 
+    <div class="post_content"> 
+        {% if post_heading %}    
+            {% include "@atoms/text/headings/_heading.twig" with {
+                heading_level: 3,
+                heading: post_heading,
+                heading_url: post_heading_url,
+                heading_base_class: post_heading_base_class,
+            } %}
+        {% endif %} 
+        {% if post_paragraph_content %}    
+            {% include "@atoms/text/text/01-paragraph.twig" with {
+                paragraph_content: post_paragraph_content,
+            } %}
+        {% endif %}   
+    </div>     
+</div>

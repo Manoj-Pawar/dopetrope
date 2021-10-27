@@ -1,0 +1,23 @@
+items:
+  - svg_base_class: 'fa fa-facebook-f'
+    fonticon_base_class: 'facebook'
+    icon_url: '#'
+  - svg_base_class: 'fa fa-instagram'
+    fonticon_base_class: 'instagram'
+    icon_url: '#'
+  - svg_base_class: 'fa fa-github'
+    fonticon_base_class: 'github'
+    icon_url: '#'
+  - svg_base_class: 'fa fa-twitter'
+    fonticon_base_class: 'twitter'
+    icon_url: '#'
+  - svg_base_class: 'fa fa-linkedin'
+    fonticon_base_class: 'linkedin'
+    icon_url: '#'
+address_title__heading: Vitae tempor lorem
+address_label: Address
+address_content: Untitled Incorporated 1234 Somewhere Road Suite Nashville, TN 00000-0000
+email_label: Email
+email_content: abc@example.com
+contact_label: Phone
+contact_content: 9123456780
